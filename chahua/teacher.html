@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery-1.10.2.min.js"></script>
+<link href="animate.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+body{ margin:0}
+*{ font-family:"微软雅黑"; font-size:12px;}
+img{ display:block;}
+a{ text-decoration:none; color:black;}
+ul{ display:block; margin:0; padding:0}
+li{ list-style:none;}
+p{ margin:0;}
+h2{ margin:0; font-weight:normal;}
+dl,dd{ margin:0; line-height:none;}
+.clearfix{ clear:both;}
+/*页眉*/
+.head_box{ background-color:#1d2b36;}
+.head{ width:1000px; margin:0 auto;}
+.head a{ color:#fff;}
+.logo{ float:left; margin-top:15px; margin-bottom:14px;}
+.head_right,.language,.nav{ float:right;}
+.nav{ clear:both;}
+.language dt,.nav li{ float:left;}
+.language{ padding-right:14px; margin-top:9px; margin-bottom:16px;}
+.language dt{ padding:0 8px;}
+.chinese{ border-right:#fff 2px solid;}
+.nav li{ margin:0 22px; position:relative;}
+.tip{ position:absolute; left:50%; margin-left:-10px;top:10px;}
+.nav a{ font-size:15px;}
+.nav a:hover{ color:#62f6e3;}
+/*banner*/
+.banner-box{ background-color:#ccc; padding:15px 0; margin-bottom:30px;}
+.banner{ width:1000px; height:320px; margin:0 auto; overflow:hidden; position:relative}
+.tu{ width:3005px; position:relative;}
+.banner img{ float:left;}
+.red{ background-color:red;}
+span{ width:15px; height:15px; border-radius:50%; margin-right:10px; background-color:#fff; float:left;}
+.anniu{ position:absolute; bottom:15px; left:50%; margin-left:-30px;}
+.right_abbr{ position:fixed; top:149px; right:10px}
+.right_abbr div{ margin-bottom:1px;}
+/*内容*/
+.train{ width:1000px; margin:0 auto;}
+.train_nav{ border-bottom:black 1px solid; padding-bottom:6px; margin-bottom:50px;}
+.nav_right{ float:right; padding-top:6px;}
+.nav_left,.nav_left dl,.nav_right dt{ float:left;}
+.nav_left dt{width:122px; text-align:center;}
+.nav_left dt a{ font-size:14px;}
+.nav_left dd{ width:122px; text-align:center;}
+.nav_left dd,.nav_right dt,.nav_right a{ color:#A6A6A6;}
+.nav_left dl{ position:relative;}
+.nav_left img{ position:absolute; left:50%; margin-left:-7px; top:44px}
+.content_box{ width:725px; padding-left:275px; position:relative; margin-bottom:40px;}
+.content{ height:175px;}
+.photo{ position:absolute; left:0; top:0; padding:9px; border:1px #A6A6A6 solid; width:230px; height:155px; -webkit-animation:fangda 1s}
+.photo img{ width:100%; height:100%}
+.photo:hover{ padding:0; width:248px; height:173px;}	
+.column{ padding-top:9px; padding-bottom:15px; border-bottom:1px #ccc solid; margin-bottom:22px;}
+.column dt{ line-height:17px; float:left;}
+.column a{ color:#1d2b36; font-size:17px;}
+.column dd{ margin-top:5px; font-size:12px; color:#A6A6A6; float:right;}
+.content p a{ font-size:12px; color:#999999; line-height:25px;}
+.content input{ border:none; margin:0; padding:0; background-color:#646e87; color:white; width:95px; height:30px; position:absolute; right:0; right:13px;}
+.content:hover .column a{ color:#34c0ae;}
+.content:hover input{ background-color:#1d2b36; color:#62f6e3;}
+/*页脚*/
+.footer_box{ background-color:#1d2b36; margin-top:30px; padding-bottom:36px;}
+.footer{ width:1000px; margin:0 auto; color:#fff;}
+.footer .telephone{ font-size:16px; font-weight:bold; padding-top:50px; position:relative; line-height:16px;}
+.footer p{ margin-left:49px;}
+.footer img{ position:absolute; left:0; bottom:5px;}
+.footer dl{ margin-top:14px;}
+.footer dt{ float:left;}
+.footer dd{ float:right;}
+</style>
+</head>
+
+<body>
+<div class="head_box">
+    <div class="head">
+        <div class="logo"><a href="index.html"><img src="images/chahua_03.png"></a></div>
+        <div class="head_right">
+            <dl class="language">
+                <dt class="chinese"><a href="">简体中文</a></dt>
+                <dt><a href="">English</a></dt>
+                <div class="clearfix"></div>
+            </dl>
+            <ul class="nav">
+                <li><a href="about.html">关于我们</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="news.html">新闻中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="course.html">培训课程</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="">师资力量</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="job.html">就业中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="">服务中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="contact.html">联系我们</a><img class="tip" src="images/zhuazi.png"></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!--banner-->
+<div class="banner-box">
+	<div class="banner">
+    	<div class="tu">
+            <img src="images/chahua_9.png">
+            <img src="images/chahua_8.png">
+            <img src="images/chahua_07.png">
+            <img src="images/chahua_9.png">
+        </div>
+        <div class="anniu">
+            <span class="red"></span>
+            <span></span>
+            <span></span>
+            <div class="clearfix"></div>
+    	</div>
+    </div>
+    
+</div>
+<div class="right_abbr">
+	<div><a href=""><img src="images/chahua_10.png"></a></div>
+	<div><a href=""><img src="images/chahua_13.png"></a></div>
+	<div><a href=""><img src="images/chahua_15.png"></a></div>
+</div>
+<!--内容-->
+<div class="train">
+	<div class="train_nav">
+    	<div class="nav_left">
+            <dl>
+                <dt><a href="">原画教师</a></dt>
+                <dd>Teachers</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">插画教师</a></dt>
+                <dd>Teachers</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">漫画教师</a></dt>
+                <dd>Teachers</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">素描教师</a></dt>
+                <dd>Teachers</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <div class="clearfix"></div>
+        </div>
+        <dl class="nav_right">
+        	<dt>您的位置：</dt>
+        	<dt><a href="">&nbsp;首页&gt;</a></dt>
+            <dt><a href="">&nbsp;师资力量&gt;</a></dt>
+        	<dt><a href="">&nbsp;插画教师</a></dt>
+            <div class="clearfix"></div>
+        </dl>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tt">
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/17.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">慨念插画艺术家：张丽</a></dt>
+        		<dd>更新时间：2014-04-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">高级UI视觉设计专业资深讲师。曾负责丹下建三都市建筑设计研究所新店北路地标建筑设计、阿特金斯建筑事务所湛江五星级酒店设计、日建设计东京日本王子酒店等国外优质建筑事务所的设计项目</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/18.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">慨念插画艺术家：吕志明</a></dt>
+        		<dd>更新时间：2014-04-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">高级UI视觉设计专业资深讲师。曾参与江苏卫视好享购商城、《海贼王》中国区合作方案设计、腾讯视频《维多利亚的秘密》、深圳卫视《极速巡航》招商方案设计、杰询资本VI设计等优质项目</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/19.png"></div>
+        <div class="content">
+
+        	<dl class="column">
+        		<dt><a href="">慨念插画艺术家：周南杰</a></dt>
+        		<dd>更新时间：2014-04-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">高级UI视觉设计专业资深讲师。曾参与《太仓润建》、《易客》、《众码汇》等大型项目开发，并独立架构《秀淘》项目pc端及移动端，为多家企业前端规范制定者；招商快乐B2B项目频道设计、善融商务项目APP部分频道页面设计、东凌集团项目官网整站设计等项目</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/20.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">慨念插画艺术家：陈旭腾</a></dt>
+        		<dd>更新时间：2014-04-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">游戏原画专业资深讲师。曾参与国内外多项大型游戏项目乱世无双、天剑奇缘、梦幻诛仙，国外项目BigFarm、Gangster、Galaxy等多项大型优质项目；且负责《龙虎门TACTICS》、《DTRUN》、《快剑江湖录》、《狂斩江湖》的场景概念设计、《功夫寻仙》的游戏场景原画设计</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/21.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">慨念插画艺术家：郑炜岳</a></dt>
+        		<dd>更新时间：2014-04-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">高级UI视觉设计专业资深讲师。曾负责招商快乐B2B项目频道设计、善融商务项目APP部分频道页面设计、东凌集团项目官网整站设计等项目；参与北京CBD、南方电网、佛山美旗会展中心、广州市市政院科学城写字楼、山东德州商业综合体等大型项目的制作</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    </div>
+</div>
+<!--页脚-->
+<div class="footer_box">
+    <div class="footer">
+    	<div class="telephone">
+            <img src="images/chahua_60.png">
+            <p>24小时全国资讯电话：400-888-888</p>
+        </div>
+        <dl>
+            <dt>地址：广州市越秀区太和岗路黄花岗科技创意园创意大道园区1号楼B栋3层</dt>
+            <dd>京ICP备09050775号-10</dd>
+            <div class="clearfix"></div>
+        </dl>
+    </div>
+</div>
+<script>
+$(".tip").css({opacity:0})
+$(".nav li").mouseenter(
+function(){
+	$(this).children(".tip").stop(false,false).animate({top:-20,opacity:1})
+	}
+).mouseleave(
+function(){
+	$(this).children(".tip").stop(false,false).animate({top:0,opacity:0})
+	}
+)
+
+
+/*重新设置banner宽度*/
+$(".tu").css({width:1000*$(".tu img").length});
+/*记录播放索引值*/
+var n=0;
+/*播放函数*/
+function runLeft(){
+	if(n<$(".tu img").length-1){
+	n=n+1;
+	}else{
+	$(".tu").css({marginLeft:0});
+	n=1;
+	}
+	$(".tu").stop().animate({marginLeft:(-1000*n)},1000);
+	$(".anniu li").removeClass("red");
+	if(n==$(".tu img").length-1){
+	$(".anniu li").eq(0).addClass("red");
+	}else{
+	$(".anniu li").eq(n).addClass("red");	
+	}
+}
+var timer=setInterval(runLeft,2000);
+
+$(".anniu li").hover(function(){
+	clearInterval(timer);
+	n = $(".anniu li").index(this);
+	$(".tu").stop().animate({marginLeft:(-1000*n)},1000);
+	$(".anniu li").removeClass("red");
+	$(this).addClass("red");
+},function(){
+	timer=setInterval(runLeft,2000);	
+})
+
+$(".nav_left img").eq(0).hide()
+$(".nav_left img").eq(2).hide()
+$(".nav_left img").eq(3).hide()
+$(".nav_left dt").mouseenter(
+	function(){
+		$(".nav_left img").hide()
+		$(this).siblings().show()
+		$(".tt").children().addClass("fadeIn")
+		setTimeout(function(){
+			$(".tt").children().removeClass("fadeIn")
+		},1000)	
+	}
+)
+
+</script>
+</body>
+</html>

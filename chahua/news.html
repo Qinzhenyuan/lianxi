@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery-1.10.2.min.js"></script>
+<link href="animate.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+body{ margin:0}
+*{ font-family:"微软雅黑"; font-size:12px;}
+img{ display:block;}
+a{ text-decoration:none; color:black;}
+ul{ display:block; margin:0; padding:0}
+li{ list-style:none;}
+p{ margin:0;}
+h2{ margin:0; font-weight:normal;}
+dl,dd{ margin:0; line-height:none;}
+.clearfix{ clear:both;}
+/*页眉*/
+.head_box{ background-color:#1d2b36;}
+.head{ width:1000px; margin:0 auto;}
+.head a{ color:#fff;}
+.logo{ float:left; margin-top:15px; margin-bottom:14px;}
+.head_right,.language,.nav{ float:right;}
+.nav{ clear:both;}
+.language dt,.nav li{ float:left;}
+.language{ padding-right:14px; margin-top:9px; margin-bottom:16px;}
+.language dt{ padding:0 8px;}
+.chinese{ border-right:#fff 2px solid;}
+.nav li{ margin:0 22px; position:relative;}
+.tip{ position:absolute; left:50%; margin-left:-10px;top:10px;}
+.nav a{ font-size:15px;}
+.nav a:hover{ color:#62f6e3;}
+/*banner*/
+.banner-box{ background-color:#ccc; padding:15px 0; margin-bottom:30px;}
+.banner{ width:1000px; height:320px; margin:0 auto; overflow:hidden; position:relative}
+.tu{ width:3005px; position:relative;}
+.banner img{ float:left;}
+.red{ background-color:red;}
+span{ width:15px; height:15px; border-radius:50%; margin-right:10px; background-color:#fff; float:left;}
+.anniu{ position:absolute; bottom:15px; left:50%; margin-left:-30px;}
+.right_abbr{ position:fixed; top:149px; right:10px}
+.right_abbr div{ margin-bottom:1px;}
+/*内容*/
+.train{ width:1000px; margin:0 auto;}
+.train_nav{ border-bottom:black 1px solid; padding-bottom:6px; margin-bottom:50px;}
+.nav_right{ float:right; padding-top:6px;}
+.nav_left,.nav_left dl,.nav_right dt{ float:left;}
+.nav_left dt{width:122px; text-align:center;}
+.nav_left dt a{ font-size:14px;}
+.nav_left dd{ width:122px; text-align:center;}
+.nav_left dd,.nav_right dt,.nav_right a{ color:#A6A6A6;}
+.nav_left dl{ position:relative;}
+.nav_left img{ position:absolute; left:50%; margin-left:-7px; top:44px}
+.content_box{ width:725px; padding-left:275px; position:relative; margin-bottom:40px;}
+.content{ height:175px;}
+.photo{ position:absolute; left:0; top:0; padding:9px; border:1px #A6A6A6 solid; width:230px; height:155px; -webkit-animation:fangda 1s}
+.photo img{ width:100%; height:100%}
+.photo:hover{ padding:0; width:248px; height:173px;}	
+.column{ padding-top:9px; padding-bottom:15px; border-bottom:1px #ccc solid; margin-bottom:22px;}
+.column dt{ line-height:17px; float:left;}
+.column a{ color:#1d2b36; font-size:17px;}
+.column dd{ margin-top:5px; font-size:12px; color:#A6A6A6; float:right;}
+.content p a{ font-size:12px; color:#999999; line-height:25px;}
+.content input{ border:none; margin:0; padding:0; background-color:#646e87; color:white; width:95px; height:30px; position:absolute; right:0; right:13px;}
+.content:hover .column a{ color:#34c0ae;}
+.content:hover input{ background-color:#1d2b36; color:#62f6e3;}
+/*页脚*/
+.footer_box{ background-color:#1d2b36; margin-top:30px; padding-bottom:36px;}
+.footer{ width:1000px; margin:0 auto; color:#fff;}
+.footer .telephone{ font-size:16px; font-weight:bold; padding-top:50px; position:relative; line-height:16px;}
+.footer p{ margin-left:49px;}
+.footer img{ position:absolute; left:0; bottom:5px;}
+.footer dl{ margin-top:14px;}
+.footer dt{ float:left;}
+.footer dd{ float:right;}
+</style>
+</head>
+
+<body>
+<div class="head_box">
+    <div class="head">
+        <div class="logo"><a href="index.html"><img src="images/chahua_03.png"></a></div>
+        <div class="head_right">
+            <dl class="language">
+                <dt class="chinese"><a href="">简体中文</a></dt>
+                <dt><a href="">English</a></dt>
+                <div class="clearfix"></div>
+            </dl>
+            <ul class="nav">
+                <li><a href="about.html">关于我们</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="news.html">新闻中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="course.html">培训课程</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="teacher.html">师资力量</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="job.html">就业中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="">服务中心</a><img class="tip" src="images/zhuazi.png"></li>
+                <li><a href="contact.html">联系我们</a><img class="tip" src="images/zhuazi.png"></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!--banner-->
+<div class="banner-box">
+	<div class="banner">
+    	<div class="tu">
+            <img src="images/chahua_9.png">
+            <img src="images/chahua_8.png">
+            <img src="images/chahua_07.png">
+            <img src="images/chahua_9.png">
+        </div>
+        <div class="anniu">
+            <span class="red"></span>
+            <span></span>
+            <span></span>
+            <div class="clearfix"></div>
+    	</div>
+    </div>
+    
+</div>
+<div class="right_abbr">
+	<div><a href=""><img src="images/chahua_10.png"></a></div>
+	<div><a href=""><img src="images/chahua_13.png"></a></div>
+	<div><a href=""><img src="images/chahua_15.png"></a></div>
+</div>
+<!--内容-->
+<div class="train">
+	<div class="train_nav">
+    	<div class="nav_left">
+            <dl>
+                <dt><a href="">公司新闻</a></dt>
+                <dd>Company News</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">行业新闻</a></dt>
+                <dd>Industry News</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">最近活动</a></dt>
+                <dd>Course</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <dl>
+                <dt><a href="">学员活动</a></dt>
+                <dd>Video</dd>
+                <img src="images/chahua_19.png">
+            </dl>
+            <div class="clearfix"></div>
+        </div>
+        <dl class="nav_right">
+        	<dt>您的位置：</dt>
+        	<dt><a href="">&nbsp;首页&gt;</a></dt>
+            <dt><a href="">&nbsp;新闻中心&gt;</a></dt>
+        	<dt><a href="">&nbsp;最近活动</a></dt>
+            <div class="clearfix"></div>
+        </dl>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tt">
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/22.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">设计师必读 | 2017年Web设计10大流行趋势解读！</a></dt>
+        		<dd>更新时间：2017-01-06</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">2017年你想要的设计流行趋势都在这里！</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/23.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">孔雀眠高阁 | 灵性轻奢引领室内设计新风尚</a></dt>
+        		<dd>更新时间：2016-12-20</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">把「孔雀」融入室内设计 会是怎样的视觉盛宴？ 请看水晶石教育室内设计专业1608期同学的妙想吧</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/24.png"></div>
+        <div class="content">
+
+        	<dl class="column">
+        		<dt><a href="">现实版《龙樱》：0基础半年逆袭，造就影视“传奇”</a></dt>
+        		<dd>更新时间：2016-11-29</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">世上没有太晚的开始只有未被点燃的斗志</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/25.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">原画灵感 | 雾霾与星战的交集叫「废土」</a></dt>
+        		<dd>更新时间：2016-10-10</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">雾霾吸够了，来吸一口废土吧 一众大神构建过的废土世界 来看看是什么组成的吧</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    <div class="content_box animated">
+    	<div class="photo"><img src="images/26.png"></div>
+        <div class="content">
+        	<dl class="column">
+        		<dt><a href="">从片头设计开始：改变影视作品格调的三大元素</a></dt>
+        		<dd>更新时间：2016-09-25</dd>
+                <div class="clearfix"></div>
+        	</dl>
+            <p><a href="">现在很多宣传片 广告影片都是套用模板 这些作品看起来酷炫不过逃不出千篇一律的套路 想要独树一帜还是需要更多思考 在创意方面不妨参考一下电影片头吧</a></p>
+            <input type="button" value="+VIEW MORE">
+        </div>
+    </div>
+    </div>
+</div>
+<!--页脚-->
+<div class="footer_box">
+    <div class="footer">
+    	<div class="telephone">
+            <img src="images/chahua_60.png">
+            <p>24小时全国资讯电话：400-888-888</p>
+        </div>
+        <dl>
+            <dt>地址：广州市越秀区太和岗路黄花岗科技创意园创意大道园区1号楼B栋3层</dt>
+            <dd>京ICP备09050775号-10</dd>
+            <div class="clearfix"></div>
+        </dl>
+    </div>
+</div>
+<script>
+$(".tip").css({opacity:0})
+$(".nav li").mouseenter(
+function(){
+	$(this).children(".tip").stop(false,false).animate({top:-20,opacity:1})
+	}
+).mouseleave(
+function(){
+	$(this).children(".tip").stop(false,false).animate({top:0,opacity:0})
+	}
+)
+
+
+/*重新设置banner宽度*/
+$(".tu").css({width:1000*$(".tu img").length});
+/*记录播放索引值*/
+var n=0;
+/*播放函数*/
+function runLeft(){
+	if(n<$(".tu img").length-1){
+	n=n+1;
+	}else{
+	$(".tu").css({marginLeft:0});
+	n=1;
+	}
+	$(".tu").stop().animate({marginLeft:(-1000*n)},1000);
+	$(".anniu li").removeClass("red");
+	if(n==$(".tu img").length-1){
+	$(".anniu li").eq(0).addClass("red");
+	}else{
+	$(".anniu li").eq(n).addClass("red");	
+	}
+}
+var timer=setInterval(runLeft,2000);
+
+$(".anniu li").hover(function(){
+	clearInterval(timer);
+	n = $(".anniu li").index(this);
+	$(".tu").stop().animate({marginLeft:(-1000*n)},1000);
+	$(".anniu li").removeClass("red");
+	$(this).addClass("red");
+},function(){
+	timer=setInterval(runLeft,2000);	
+})
+
+$(".nav_left img").eq(0).hide()
+$(".nav_left img").eq(2).hide()
+$(".nav_left img").eq(3).hide()
+$(".nav_left dt").mouseenter(
+	function(){
+		$(".nav_left img").hide()
+		$(this).siblings().show()
+		$(".tt").children().addClass("fadeIn")
+		setTimeout(function(){
+			$(".tt").children().removeClass("fadeIn")
+		},1000)	
+	}
+)
+
+</script>
+</body>
+</html>
